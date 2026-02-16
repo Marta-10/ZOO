@@ -205,12 +205,17 @@ footer h3 {font-size: 15px; font-weight: 600;}
   padding: 10px 10px;
   border: 2px solid #000;
   margin: 50px;
+  width: 100px;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .bottone:hover {
   background-color: #000;
   color: #fff; 
 }
+
+.bottone-sezionea {text-align: center;}
 
 .bottone-sezione {
   display: flex;
@@ -257,9 +262,11 @@ header nav ul li a:hover {
 
 .colore-nav {color: #ff6b6b}
 
+.bottone-sezione h5 {margin: 0 !important; font-size: 20px;}
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 700px) {
   h1 { font-size: 50px; line-height: 70px;}
 
   header nav ul { display: flex; gap: 15px; font-family: poppins, sans-serif; font-size: 12px;}
